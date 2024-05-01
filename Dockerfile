@@ -2,7 +2,7 @@
 FROM node:14-alpine as build
 
 # Set the working directory in the container
-WORKDIR /portfolio
+WORKDIR /Portfolio-master
 
 # Copy package.json and package-lock.json (if available) to the container
 COPY package*.json ./
